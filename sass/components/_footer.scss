@@ -1,0 +1,102 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+.footer-logo-studio {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.contact-footer {
+  margin-top: 20px;
+  line-height: 1.71;
+}
+.contact-footer .item + .item {
+  margin-top: 9px;
+}
+.address {
+  color: var(--ptimary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-style: normal;
+  margin-right: 10px;
+}
+.subscription {
+  font-weight: 700;
+  line-height: 1.14;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: var(--ptimary-text-color);
+}
+.ft-input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  background-color: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
+  display: inline-flex;
+  margin-right: 10px;
+}
+.button-ft-form {
+  width: 200px;
+  height: 50px;
+  padding: 10px 29px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: left;
+  border: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ft-icon-title {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--ptimary-text-color);
+}
+.sociali-ft-icons {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: start;
+}
+.icon-send {
+  width: 24px;
+  height: 24px;
+}
+.button-ft-form:hover,
+.button-ft-form:focus,
+.button-ft-form {
+  background-color: var(--acent-color);
+  color: var(--ptimary-text-color);
+}
+.input:focus,
+.ft-input:focus,
+.textarea:focus {
+  border-color: var(--acent-color);
+}
