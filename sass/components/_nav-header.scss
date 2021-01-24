@@ -28,7 +28,14 @@
   letter-spacing: 0.02em;
   color: $title-color;
   text-decoration: none;
+  &:hover,
+  &:focus {
+    color: $acent-color;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
+
 .nav-link-studio {
   font-size: 14px;
   line-height: 1.14;
@@ -110,8 +117,7 @@
     --color5: $acent-color;
   }
 }
-&:hover .nav-link,
-&:focus .nav-link,
+
 &:hover .nav,
 &:focus .nav,
 &:hover .contacts-link,
