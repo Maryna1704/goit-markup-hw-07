@@ -118,12 +118,31 @@
   }
 }
 
-&:hover .nav,
-&:focus .nav,
-&:hover .contacts-link,
-&:focus .contacts-link,
-&:hover .nav-link.current .filter-button.current {
-  color: $acent-color;
+.nav {
   text-decoration: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $acent-color;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.contacts-link {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $acent-color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.nav-link.current .filter-button.current {
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: $acent-color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
