@@ -79,6 +79,11 @@
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
+
+ &:hover,&:focus {
+  background-color: $acent-color;
+  color: $ptimary-text-color;
+}
 }
 .ft-icon-title {
   display: block;
@@ -100,11 +105,7 @@
   width: 24px;
   height: 24px;
 }
-.button-ft-form &:hover,
-&:focus {
-  background-color: $acent-color;
-  color: $ptimary-text-color;
-}
+
 .input:focus,
 .ft-input:focus,
 .textarea:focus {
