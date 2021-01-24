@@ -71,12 +71,13 @@
   height: 20px;
   --color4: #afb1b8;
   --color5: #afb1b8;
-}
-.social-icon:hover,
-.social-icon:focus {
-  --color4: $acent-color;
-  --color4: #ffffff;
-  --color5: #ffffff;
+
+  &:hover,
+  &:focus {
+    --color4: $acent-color;
+    --color4: #ffffff;
+    --color5: #ffffff;
+  }
 }
 .social-links {
   display: flex;
@@ -94,18 +95,20 @@
   margin-right: 10px;
 }
 
-.link:hover,
-.link:focus {
-  background-color: $acent-color;
-  border-radius: 50%;
-}
 .link {
   display: flex;
   width: 44px;
   height: 44px;
   background-color: #ffffff;
   align-items: center;
+
+  &:hover,
+  &:focus {
+    background-color: $acent-color;
+    border-radius: 50%;
+  }
 }
+
 .specialists {
   color: $title-color;
   margin-bottom: 10px;

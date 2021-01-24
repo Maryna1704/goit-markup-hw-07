@@ -102,9 +102,9 @@
   width: 24px;
   height: 24px;
 }
-.button-ft-form:hover,
-.button-ft-form:focus,
-.button-ft-form {
+.button-ft-form
+&:hover,
+&:focus{
   background-color: $acent-color;
   color: $ptimary-text-color;
 }
@@ -133,15 +133,14 @@
   width: 20px;
   height: 20px;
   fill: white;
-}
-.social-network-item:not(:last-child) {
-  margin-right: 10px;
-}
 
-.social-icons-svg:hover,
-.social-icons-svg:focus {
+&:hover, &:focus {
   cursor: pointer;
   fill: #18a0fb;
+}}
+
+.social-network-item:not(:last-child) {
+  margin-right: 10px;
 }
 .contact-link {
   text-decoration: none;
@@ -151,9 +150,9 @@
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-}
-.contact-link:hover,
-.contact-link:focus {
+
+&:hover,
+&:focus {
   color: #18a0fb;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+}}
