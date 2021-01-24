@@ -10,7 +10,7 @@
   margin-right: 30px;
 }
 .advantages-title {
-  color: var(--title-color);
+  color: $title-color;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -24,4 +24,18 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+.icon-box {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 70px;
+  height: 70px;
 }
