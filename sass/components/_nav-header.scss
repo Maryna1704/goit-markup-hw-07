@@ -97,11 +97,7 @@
   margin-right: 10px;
   align-items: center;
   --color5: #ffffff;
-  &:hover .tel,
-  &:focus .tel {
-    --color3: $acent-color;
-    --color5: $acent-color;
-  }
+  
 }
 
 .envelop {

@@ -214,12 +214,6 @@ a {
   --color5: #ffffff;
 }
 
-.tel:hover .tel,
-.tel:focus .tel {
-  --color3: $acent-color;
-  --color5: $acent-color;
-}
-
 .envelop {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -971,6 +965,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #18a0fb;
+  color: white;
 }
 
 .button-ft-form:hover, .button-ft-form:focus {
@@ -1058,7 +1054,7 @@ a {
 .contact-link {
   text-decoration: none;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(133, 21, 21, 0.6);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
@@ -1066,7 +1062,7 @@ a {
 }
 
 .contact-link:hover, .contact-link:focus {
-  fill: #18a0fb;
+  color: red;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1123,6 +1119,10 @@ a {
   cursor: pointer;
 }
 
+.btn-close:hover, .btn-close:focus {
+  fill: #18a0fb;
+}
+
 .icon-close {
   position: absolute;
   top: 50%;
@@ -1132,8 +1132,6 @@ a {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   fill: #000000;
-  -webkit-transition: fill 250ms #18a0fb;
-  transition: fill 250ms #18a0fb;
 }
 
 .form-tittle {

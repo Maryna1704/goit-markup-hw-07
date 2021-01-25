@@ -79,6 +79,8 @@
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
+  background-color: $acent-color;
+  color: $ptimary-text-color;
 
   &:hover,
   &:focus {
@@ -86,6 +88,7 @@
     color: $ptimary-text-color;
   }
 }
+
 .ft-icon-title {
   display: block;
   margin-top: 0;
@@ -145,15 +148,14 @@
 .contact-link {
   text-decoration: none;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(133, 21, 21, 0.6);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-
   &:hover,
   &:focus {
-    fill: #18a0fb;
+    color: red;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

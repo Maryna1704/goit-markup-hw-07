@@ -39,6 +39,10 @@
   border-radius: 50%;
   background-color: #ffffff;
   cursor: pointer;
+  &:hover,
+  &:focus {
+    fill: $acent-color;
+  }
 }
 
 .icon-close {
@@ -49,7 +53,6 @@
   height: 18px;
   transform: translate(-50%, -50%);
   fill: #000000;
-  transition: fill 250ms $acent-color;
 }
 .form-tittle {
   font-weight: 700;
